@@ -1,0 +1,3 @@
+<ngc-enter-task (taskEntered)="addTask($event)"></ngc-enter-task>
+
+<ngc-task *ngFor="let task of tasks" [task]="task"></ngc-task>
